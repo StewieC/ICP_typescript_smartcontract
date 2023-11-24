@@ -1,0 +1,30 @@
+{
+  "canisters": {
+    "drand-oracle": {
+      "candid": "candid.txt",
+      "modules": {
+        "index": "src/index.ts"
+      }
+    }
+  },
+  "candid": {
+    "candid.txt": {
+      "service": {
+        "types": {
+          "RandomNumber": {
+            "type": "record",
+            "fields": {
+              "value": "int32"
+            }
+          }
+        },
+        "functions": {
+          "get_random_number": {
+            "params": ["int32"],
+            "returns": "RandomNumber"
+          }
+        }
+      }
+    }
+  }
+}

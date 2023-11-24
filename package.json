@@ -1,0 +1,17 @@
+{
+  "name": "drand-oracle",
+  "version": "1.0.0",
+  "description": "A decentralized random number oracle for the Internet Computer",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no tests implemented\""
+  },
+  "keywords": [
+    "icp",
+    "dfinity",
+    "random",
+    "oracle"
+  ],
+  "author": "Bard",
+  "license": "MIT"
+}
